@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Kyubi Application Test Automation Test Suite" >
+
+   <listeners>
+        <listener 
+        class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+   </listeners>  
+   <test name="Kyubi App Test Cases">
+        <classes>
+           <class name="com.qa.testcases.superadmin.SuperLoginPageTest"></class>
+           <class name="com.qa.testcases.ceo.CEOLoginPageTest"></class>
+           <class name="com.qa.testcases.partner.PartnerLoginPageTest"></class>
+        </classes>
+   
+   </test>
+   
+
+</suite>
